@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TemporaryDataModel } from 'src/app/core/model/temporaryDataModel';
 import { DataService } from 'src/app/core/services/data-service.service';
 
+//TODO: Implement 
 @Component({
   selector: 'app-get-page',
   templateUrl: './get-page.component.html',

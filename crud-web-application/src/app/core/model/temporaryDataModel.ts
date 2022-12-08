@@ -1,3 +1,4 @@
+//TODO: Implement 
 export class TemporaryDataModel {
     constructor(private data0: string, 
                 private data1: string,

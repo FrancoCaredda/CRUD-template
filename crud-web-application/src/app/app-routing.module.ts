@@ -5,6 +5,7 @@ import { GetPageComponent } from './components/get-page/get-page.component';
 import { UpdatePageComponent } from './components/update-page/update-page.component';
 import { DeletePageComponent } from './components/delete-page/delete-page.component';
 
+//TODO: If you need changes 
 const routes: Routes = [
   { path: "", component: GetPageComponent },
   { path: "insert", component: InsertPageComponent },
