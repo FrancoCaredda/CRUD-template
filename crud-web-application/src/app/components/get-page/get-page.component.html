@@ -1,0 +1,20 @@
+<h3 style="margin-top: 10px;">List of the data</h3>
+<hr>
+<table class="table" style="text-align: center;">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Data 0</th>
+        <th scope="col">Data 1</th>
+        <th scope="col">Data 2</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let model of data; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{model.getData0()}}</td>
+            <td>{{model.getData1()}}</td>
+            <td>{{model.getData2()}}</td>
+        </tr>
+    </tbody>
+  </table>
